@@ -12,8 +12,9 @@
      </div>
         
         </div>
-       <br> <p><a href="index.php?menu=insert" class="btn btn-success">Post a car </a></p>
-       <br>
+       
+       <p><a href="index.php?menu=insert" class="btn btn-success">Post a car </a></p>
+       
         <?php
         }
         ?>
@@ -39,11 +40,14 @@
                         <div class="caption">
                             <h3><?php echo $prd->model; ?></h3>
                                 <p>brand : <?php echo $prd->brand; ?></p>
+                                
                                 <p>color : <?php echo $prd->color; ?></p>
+
                                 <p>license : <?php echo $prd->license; ?></p>
+
                                 <p>province : <?php echo $prd->province; ?></p>
+
                                 <p>modelYear : <?php echo $prd->modelYear; ?></p>
-                            
                                 <p>
                                     <strong>Price: <?php echo $prd->price ?></strong>
                                 </p>

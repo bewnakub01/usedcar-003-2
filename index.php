@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Soi5 Used Cars</title>
+    <title>Soi5 Used Cars 003</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -68,7 +68,7 @@
 --> 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Soi 5 Used Cars</a>
+            <a class="navbar-brand" href="#">Soi 5 Used Cars 003</a>
         </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
                 <ul class="nav navbar-nav">
@@ -126,15 +126,6 @@
                     <li>
                         <a href="index.php?menu=show" class="active"><i class="fa fa-car fa-fw"></i> รถทุกประเภท</a>
                     </li>
-                    <li>
-                        <a href="showproduct.php?car=1" class="active"><i class="fa fa-car fa-fw"></i> รถเก๋ง</a>
-                    </li>
-                    <li>
-                        <a href="showproduct.php?car=2" class="active"><i class="fa fa-truck fa-fw"></i> รถกระบะ</a>
-                    </li>
-                    <li>
-                        <a href="showproduct.php?car=3" class="active"><i class="fa fa-truck fa-fw"></i> รถตู้</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -142,7 +133,7 @@
     
     <div id="page-wrapper">
         <div class="container-fluid">
-        
+        <br><br>
         <?php
             if(isset($_GET["menu"])){
                 $menu=$_GET["menu"];
