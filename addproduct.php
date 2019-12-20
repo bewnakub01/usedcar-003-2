@@ -15,7 +15,6 @@
 
 </head>
 <body>
-
     <?php
         //รับข้อมูลจาก Form Register
         include("connect.php");
@@ -56,10 +55,6 @@
                         Add Product
                         </div>
                         <div class="panel-body">
-
-        
-
-
                         <div class="form-group row">
                                 <label for="brand" class="col-md-3">brand : </label>
                                 <div class="col-md-9">
@@ -67,12 +62,7 @@
                                 </div>
                             </div>
                 
-                            <div class="form-group row">
-                                <label for="carType" class="col-md-3">carType : </label>
-                                <div class="col-md-9">
-                                    <input type="int" name="carType" class="form-control">
-                                </div>
-                            </div>
+                      
 
                             <div class="form-group row">
                                 <label for="color" class="col-md-3">color : </label>

@@ -155,7 +155,7 @@
                     break;
                 }
                 default:{
-                    $page="main.php";
+                    $page="show.php";
                 }
             }
                 include($page);

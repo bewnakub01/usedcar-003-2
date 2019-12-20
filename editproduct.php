@@ -31,10 +31,7 @@
         </div>
         <div class="col-md-6">
             <form action="updateproduct.php" class="form-horizontal" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                    <label for="name" class="col-md-3 control-label">Type : <?php echo $prd->carType ?> </label>
 
-                </div>
                 <div class="form-group">
                     <label for="Brand" class="col-md-3 control-label">Brand: </label>
                     <div class="col-md-6">

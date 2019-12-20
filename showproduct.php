@@ -139,15 +139,7 @@
                     <li>
                         <a href="showproduct.php?" class="active"><i class="fa fa-car fa-fw"></i> รถทุกประเภท</a>
                     </li>
-                    <li>
-                        <a href="showproduct.php?cat=1" class="active"><i class="fa fa-car fa-fw"></i> รถเก๋ง</a>
-                    </li>
-                    <li>
-                        <a href="showproduct.php?cat=2" class="active"><i class="fa fa-truck fa-fw"></i> รถกระบะ</a>
-                    </li>
-                    <li>
-                        <a href="showproduct.php?cat=3" class="active"><i class="fa fa-truck fa-fw"></i> รถตู้</a>
-                    </li>
+            
                 </ul>
             </div>
         </div>
@@ -168,7 +160,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail">
                     <a href="productdetail.php?pid=<?php echo $prd->id; ?>">
-                        <img src="img/product/<?php echo $prd->picture; ?>" alt="">
+                        <img src="img/<?php echo $prd->picture; ?>" alt="">
                     </a>
                         <div class="caption">
                             <h3><?php echo $prd->name; ?></h3>

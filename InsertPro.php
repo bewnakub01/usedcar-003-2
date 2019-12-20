@@ -9,12 +9,7 @@
     <div class="container">
         <div class="row">
             <form action="saveproduct.php" class="form-horizontal" method="POST" enctype="multipart/form-data">
-                <div class="form-group">
-                    <label for="name" class="col-md-3 control-label">Type :  </label>
-                    <div class="col-md-9">
-                        <input type="text" name="txttype" id=""class="form-control">
-                    </div>
-                </div>
+          
                 <div class="form-group">
                     <label for="name" class="col-md-3 control-label">Brand: </label>
                     <div class="col-md-9">
